@@ -17,11 +17,13 @@ int main() {
     for(float i=0;i<1;i+=0.1){
         PWM1=i;
         temp=PWM1;
+        wait(0.1);
         pc.printf("%f\r\n",temp);
     }
     for(float i=1;i>=0;i-=0.1){
         PWM1=i;
         temp=PWM1;
+        wait(0.1);
         pc.printf("%f\r\n",temp);
     }
 }
