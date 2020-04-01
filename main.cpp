@@ -13,4 +13,8 @@ int main()
       scr.text_height(2);
       scr.printf("107033131");
       //scr.color(GREEN);
+      scr.line(10,10,40,10,WHITE);
+      scr.line(10,10,10,40,WHITE);
+      scr.line(10,40,40,40,WHITE);
+      scr.line(40,10,40,40,WHITE);
 }
